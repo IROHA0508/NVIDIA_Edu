@@ -1,0 +1,41 @@
+incident_id,date,year,month,flight_number,airline,aircraft_type,severity,fatalities,location,description,is_fatal,is_geopolitical,is_boeing,is_airbus
+AV001,2010-04-10,2010,4,PLF101,Polish AF,Tu-154,fatal_crash,96,"Smolensk, Russia",Polish presidential plane crash,1,0,0,0
+AV002,2010-05-22,2010,5,IX812,Air India Express,B737-800,fatal_crash,158,"Mangalore, India",Runway overrun,1,0,1,0
+AV003,2011-07-08,2011,7,PIA8264,Hewa Bora Airways,B727,fatal_crash,81,"Kisangani, DRC",Severe weather landing,1,0,1,0
+AV004,2012-04-20,2012,4,BSC213,Bhoja Air,B737-200,fatal_crash,127,"Islamabad, Pakistan",Crashed near airport,1,0,1,0
+AV005,2013-07-06,2013,7,OZ214,Asiana Airlines,B777-200,fatal_crash,3,"San Francisco, USA",Hard landing short of runway,1,0,1,0
+AV006,2014-03-08,2014,3,MH370,Malaysia Airlines,B777-200,fatal_crash,239,Indian Ocean,"Disappeared, never found",1,0,1,0
+AV007,2014-07-17,2014,7,MH17,Malaysia Airlines,B777-200,fatal_crash,298,Eastern Ukraine,Shot down by missile,1,1,1,0
+AV008,2014-07-23,2014,7,GE222,TransAsia Airways,ATR 72,fatal_crash,48,"Magong, Taiwan",Typhoon weather,1,0,0,0
+AV009,2014-12-28,2014,12,QZ8501,AirAsia,A320,fatal_crash,162,Java Sea,Aerodynamic stall in storm,1,0,0,1
+AV010,2015-03-24,2015,3,4U9525,Germanwings,A320,fatal_crash,150,French Alps,Co-pilot deliberate crash,1,0,0,1
+AV011,2015-10-31,2015,10,7K9268,Metrojet,A321,fatal_crash,224,"Sinai, Egypt",Bomb explosion,1,0,0,1
+AV012,2016-03-19,2016,3,FZ981,FlyDubai,B737-800,fatal_crash,62,"Rostov-on-Don, Russia",Go-around crash,1,0,1,0
+AV013,2016-05-19,2016,5,MS804,EgyptAir,A320,fatal_crash,66,Mediterranean Sea,Cockpit fire suspected,1,0,0,1
+AV014,2017-04-09,2017,4,UA3411,United Airlines,B737-800,incident,0,"Chicago, USA",Dr. Dao forcibly removed,0,0,1,0
+AV015,2018-04-17,2018,4,WN1380,Southwest,B737-700,incident_fatal,1,"Philadelphia, USA",Engine fan blade failure,1,0,1,0
+AV016,2018-10-29,2018,10,JT610,Lion Air,B737 MAX 8,fatal_crash,189,Java Sea,"MCAS malfunction, first 737 MAX crash",1,0,1,0
+AV017,2019-03-10,2019,3,ET302,Ethiopian Airlines,B737 MAX 8,fatal_crash,157,"Bishoftu, Ethiopia","MCAS malfunction, 2nd 737 MAX crash → grounding",1,0,1,0
+AV018,2019-05-05,2019,5,SU1492,Aeroflot,SSJ100,fatal_crash,41,"Moscow, Russia","Hard landing, fuel fire",1,0,0,0
+AV019,2019-08-15,2019,8,U6178,Ural Airlines,A321,incident,0,"Moscow, Russia",Successful cornfield landing (Russian Hudson),0,0,0,1
+AV020,2020-01-08,2020,1,PS752,Ukraine Intl,B737-800,fatal_crash,176,"Tehran, Iran",Shot down by IRGC,1,1,1,0
+AV021,2020-05-22,2020,5,PK8303,Pakistan Intl,A320,fatal_crash,97,"Karachi, Pakistan",Landing gear failure,1,0,0,1
+AV022,2020-08-07,2020,8,IX1344,Air India Express,B737-800,fatal_crash,21,"Kozhikode, India",Runway overrun in rain,1,0,1,0
+AV023,2021-01-09,2021,1,SJ182,Sriwijaya Air,B737-500,fatal_crash,62,Java Sea,Crashed after takeoff,1,0,1,0
+AV024,2021-05-23,2021,5,FR4978,Ryanair,B737-800,incident,0,"Minsk, Belarus",Forced landing by Belarus,0,0,1,0
+AV025,2022-01-15,2022,1,UAEM,Houthi attacks,various,ground_incident,3,"Abu Dhabi, UAE",Drone attacks on aviation facilities,1,1,0,0
+AV026,2022-03-21,2022,3,MU5735,China Eastern,B737-800,fatal_crash,132,"Wuzhou, China",Vertical dive crash,1,0,1,0
+AV027,2022-07-16,2022,7,BSI301,Various,various,ground_incident,0,Various airports,Worldwide passport queue crisis,0,0,0,0
+AV028,2022-11-15,2022,11,SU1492,Aeroflot Various,various,sanctions_impact,0,Russia,Sanctions cut Aeroflot from MRO services,0,0,0,0
+AV029,2023-02-04,2023,2,AI171,Air India,B777,near_miss,0,New York-Delhi,Pilot peed on passenger,0,0,1,0
+AV030,2023-11-29,2023,11,FX1180,FedEx,B767-300F,incident,0,"Chattanooga, USA",Gear-up landing,0,0,1,0
+AV032,2024-01-02,2024,1,JL516,Japan Airlines,A350,fatal_collision,5,"Tokyo Haneda, Japan",Collided with Coast Guard plane,1,0,0,1
+AV031,2024-01-05,2024,1,AS1282,Alaska Airlines,B737 MAX 9,incident,0,"Portland, USA",Door plug blowout — Boeing crisis intensifies,0,0,1,0
+AV033,2024-08-09,2024,8,ATR2283,Voepass,ATR 72,fatal_crash,62,"Vinhedo, Brazil",Flat spin crash,1,0,0,0
+AV034,2024-12-25,2024,12,J28243,Azerbaijan Airlines,E190,fatal_crash,38,"Aktau, Kazakhstan",Hit by Russian air defense fire,1,0,0,0
+AV035,2024-12-29,2024,12,7C2216,Jeju Air,B737-800,fatal_crash,179,"Muan, South Korea","Belly landing, deadliest in Korean history",1,0,1,0
+AV036,2025-01-29,2025,1,AA5342,American/PSA,CRJ-700,fatal_collision,67,"Washington DC, USA",Mid-air collision with Army Black Hawk,1,0,0,0
+AV037,2025-02-17,2025,2,DL4819,Delta Endeavor,CRJ-900,incident,0,"Toronto, Canada","Plane flipped on landing, all survived",0,0,0,0
+AV038,2025-06-12,2025,6,AI171,Air India,B787-8,fatal_crash,241,"Ahmedabad, India",Crashed shortly after takeoff,1,0,1,0
+AV039,2025-09-20,2025,9,BA38,British Airways,B777-200,incident,0,London-Heathrow,"Hydraulic failure, emergency landing",0,0,1,0
+AV040,2026-02-15,2026,2,EK231,Emirates,A380,incident,0,Dubai-JFK,"Engine shutdown, diversion",0,0,0,1
