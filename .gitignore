@@ -1,0 +1,10 @@
+# 대용량 데이터셋
+*.zip
+교육 자료/**/data/*.zip
+
+# Jupyter 체크포인트
+.ipynb_checkpoints/
+
+# 기타 캐시
+__pycache__/
+*.pyc
