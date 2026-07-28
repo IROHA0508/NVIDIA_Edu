@@ -91,7 +91,10 @@ classes = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship'
 
 args = add_argument()
 
-net = torch.hub.load('pytorch/vision:v0.10.0', 'resnet152', pretrained=True)
+import torchvision.models as models
+net = models.resnet152(pretrained = True)
+
+# net = torch.hub.load('pytorch/vision:v0.10.0', 'resnet152', pretrained=True)
 parameters = filter(lambda p: p.requires_grad, net.parameters())
 
 model_engine, optimizer, trainloader, __ = deepspeed.initialize(
