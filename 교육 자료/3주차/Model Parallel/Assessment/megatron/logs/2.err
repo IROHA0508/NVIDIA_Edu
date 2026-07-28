@@ -1,0 +1,2 @@
+slurmnode2: Warning: Permanently added 'slurmnode2,172.18.0.10' (ECDSA) to the list of known hosts.
+slurmstepd-slurmnode1: error: *** JOB 2 ON slurmnode1 CANCELLED AT 2026-07-28T07:10:06 ***

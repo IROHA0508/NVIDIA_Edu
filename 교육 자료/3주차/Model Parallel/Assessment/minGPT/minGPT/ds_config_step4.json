@@ -1,0 +1,21 @@
+{
+  "train_micro_batch_size_per_gpu": 128,
+  "optimizer": {
+    "type": "Adam",
+    "params": {
+      "lr": 3e-4
+    }
+  },
+  "gradient_clipping": 1.0,
+  "activation_checkpointing": {
+    "partition_activations": true,
+    "cpu_checkpointing": false,
+    "contiguous_memory_optimization": false,
+    "number_checkpoints": 12,
+    "synchronize_checkpoint_boundary": false,
+    "profile": false
+    },
+  "fp16": {
+    "enabled": true
+  }
+}

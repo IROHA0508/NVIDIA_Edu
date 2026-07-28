@@ -1,0 +1,20 @@
+[2026-07-28 07:34:35,471] [INFO] [runner.py:378:main] Using IP address of 172.18.0.9 for node slurmnode1
+[2026-07-28 07:34:35,472] [INFO] [multinode_runner.py:65:get_cmd] Running on the following workers: slurmnode1,slurmnode2
+[2026-07-28 07:34:35,472] [INFO] [runner.py:457:main] cmd = pdsh -f 1024 -w slurmnode1,slurmnode2 export NCCL_VERSION=2.11.4; export PYTHONPATH=/dli:/etc/assessment/; export PYTHONIOENCODING=utf-8;  cd /dli; /opt/conda/bin/python3.8 -u -m deepspeed.launcher.launch --world_info=eyJzbHVybW5vZGUxIjogWzAsIDFdLCAic2x1cm1ub2RlMiI6IFswLCAxXX0= --node_rank=%n --master_addr=172.18.0.9 --master_port=29500 /dli/minGPT/minGPT/runStep5.py --deepspeed --deepspeed_config '/dli/minGPT/minGPT/ds_config_step5.json'
+slurmnode2: [2026-07-28 07:34:36,867] [INFO] [launch.py:96:main] 1 NCCL_VERSION=2.11.4
+slurmnode2: [2026-07-28 07:34:36,867] [INFO] [launch.py:103:main] WORLD INFO DICT: {'slurmnode1': [0, 1], 'slurmnode2': [0, 1]}
+slurmnode2: [2026-07-28 07:34:36,867] [INFO] [launch.py:109:main] nnodes=2, num_local_procs=2, node_rank=1
+slurmnode2: [2026-07-28 07:34:36,867] [INFO] [launch.py:122:main] global_rank_mapping=defaultdict(<class 'list'>, {'slurmnode1': [0, 1], 'slurmnode2': [2, 3]})
+slurmnode2: [2026-07-28 07:34:36,867] [INFO] [launch.py:123:main] dist_world_size=4
+slurmnode2: [2026-07-28 07:34:36,867] [INFO] [launch.py:125:main] Setting CUDA_VISIBLE_DEVICES=0,1
+slurmnode1: [2026-07-28 07:34:36,874] [INFO] [launch.py:96:main] 0 NCCL_VERSION=2.11.4
+slurmnode1: [2026-07-28 07:34:36,874] [INFO] [launch.py:103:main] WORLD INFO DICT: {'slurmnode1': [0, 1], 'slurmnode2': [0, 1]}
+slurmnode1: [2026-07-28 07:34:36,874] [INFO] [launch.py:109:main] nnodes=2, num_local_procs=2, node_rank=0
+slurmnode1: [2026-07-28 07:34:36,874] [INFO] [launch.py:122:main] global_rank_mapping=defaultdict(<class 'list'>, {'slurmnode1': [0, 1], 'slurmnode2': [2, 3]})
+slurmnode1: [2026-07-28 07:34:36,875] [INFO] [launch.py:123:main] dist_world_size=4
+slurmnode1: [2026-07-28 07:34:36,875] [INFO] [launch.py:125:main] Setting CUDA_VISIBLE_DEVICES=0,1
+slurmnode1: [2026-07-28 07:34:38,101] [INFO] [distributed.py:48:init_distributed] Initializing torch distributed with backend: nccl
+slurmnode2: Downloading https://cave.cs.toronto.edu/kriz/cifar-10-python.tar.gz to ./cifar-10-python.tar.gz
+slurmnode1: Downloading https://cave.cs.toronto.edu/kriz/cifar-10-python.tar.gz to ./cifar-10-python.tar.gz
+slurmnode2: Downloading https://cave.cs.toronto.edu/kriz/cifar-10-python.tar.gz to ./cifar-10-python.tar.gz
+slurmnode1: Downloading https://cave.cs.toronto.edu/kriz/cifar-10-python.tar.gz to ./cifar-10-python.tar.gz

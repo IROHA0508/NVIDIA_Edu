@@ -1,0 +1,10 @@
+{
+  "train_micro_batch_size_per_gpu": 8,
+  "optimizer": {
+    "type": "Adam",
+    "params": {
+      "lr": 3e-3
+    }
+  },
+  "gradient_clipping": 1.0
+}

@@ -1,0 +1,30 @@
+slurmnode2: Traceback (most recent call last):
+slurmnode2:   File "/dli/minGPT/minGPT/runStep4.py", line 9, in <module>
+slurmnode2:     from mingpt.model import GPT, GPTConfig, GPT1Config
+slurmnode2:   File "/dli/minGPT/minGPT/mingpt/model.py", line 195
+slurmnode2:     for block in self.blocks
+slurmnode2:                            ^
+slurmnode2: SyntaxError: invalid syntax
+slurmnode2: Traceback (most recent call last):
+slurmnode2:   File "/dli/minGPT/minGPT/runStep4.py", line 9, in <module>
+slurmnode2:     from mingpt.model import GPT, GPTConfig, GPT1Config
+slurmnode2:   File "/dli/minGPT/minGPT/mingpt/model.py", line 195
+slurmnode2:     for block in self.blocks
+slurmnode2:                            ^
+slurmnode2: SyntaxError: invalid syntax
+slurmnode1: Traceback (most recent call last):
+slurmnode1:   File "/dli/minGPT/minGPT/runStep4.py", line 9, in <module>
+slurmnode1:     from mingpt.model import GPT, GPTConfig, GPT1Config
+slurmnode1:   File "/dli/minGPT/minGPT/mingpt/model.py", line 195
+slurmnode1:     for block in self.blocks
+slurmnode1:                            ^
+slurmnode1: SyntaxError: invalid syntax
+slurmnode1: Traceback (most recent call last):
+slurmnode1:   File "/dli/minGPT/minGPT/runStep4.py", line 9, in <module>
+slurmnode1:     from mingpt.model import GPT, GPTConfig, GPT1Config
+slurmnode1:   File "/dli/minGPT/minGPT/mingpt/model.py", line 195
+slurmnode1:     for block in self.blocks
+slurmnode1:                            ^
+slurmnode1: SyntaxError: invalid syntax
+pdsh@slurmnode1: slurmnode1: ssh exited with exit code 1
+pdsh@slurmnode1: slurmnode2: ssh exited with exit code 1

@@ -1,0 +1,14 @@
+slurmnode1: Traceback (most recent call last):
+slurmnode1:   File "/dli/minGPT/minGPT/runFirstDeepSpeed.py", line 34, in <module>
+slurmnode1:     deepspeed.init_distributed()
+slurmnode1:   File "/opt/conda/lib/python3.8/site-packages/deepspeed/utils/distributed.py", line 51, in init_distributed
+slurmnode1:     torch.distributed.init_process_group(backend=dist_backend,
+slurmnode1:   File "/opt/conda/lib/python3.8/site-packages/torch/distributed/distributed_c10d.py", line 578, in init_process_group
+slurmnode1:     store, rank, world_size = next(rendezvous_iterator)
+slurmnode1:   File "/opt/conda/lib/python3.8/site-packages/torch/distributed/rendezvous.py", line 229, in _env_rendezvous_handler
+slurmnode1:     store = _create_c10d_store(master_addr, master_port, rank, world_size, timeout)
+slurmnode1:   File "/opt/conda/lib/python3.8/site-packages/torch/distributed/rendezvous.py", line 157, in _create_c10d_store
+slurmnode1:     return TCPStore(
+slurmnode1: RuntimeError: Address already in use
+pdsh@slurmnode1: slurmnode1: ssh exited with exit code 1
+slurmstepd-slurmnode1: error: *** JOB 3 ON slurmnode1 CANCELLED AT 2026-07-28T07:10:06 ***
