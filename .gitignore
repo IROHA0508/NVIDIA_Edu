@@ -1,6 +1,7 @@
 # 대용량 데이터셋
 *.zip
 교육 자료/**/data/*.zip
+교육 자료/3주차/Multimodal Models/Multimodal_LAB/data/
 
 # Jupyter 체크포인트
 .ipynb_checkpoints/
