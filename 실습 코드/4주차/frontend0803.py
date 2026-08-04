@@ -43,6 +43,7 @@ if prompt := st.chat_input("이전 대화 내용을 바탕으로 질문해보세
                     st.markdown(answer)
                     # 챗봇 응답결과를 세션에 저장
                     st.session_state.messages.append({"role": "system", "content": answer})
+                    print(st.session_state.get("message", []))
                 else:
                     st.error("서버 응답 오류")
             except Exception as e:
